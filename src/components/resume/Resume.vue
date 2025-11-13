@@ -6,7 +6,7 @@
       </div>
       <div class="contact">
         <div class="my-name">Eyal Shahar</div>
-        <div>www.eyalshahar.com</div>
+        <div>http://eyalshahar.com</div>
         <div id="email">{{ email }}</div>  
         <div>(617) 386-3368</div>
       </div>   
@@ -26,9 +26,9 @@
     </div>   
     <div class="">
       <Publications class="avoid-break" sectionTitle="Publications" :publications="publications" />
+      <Talks :talks="talks" />
       <Publications class="avoid-break" sectionTitle="Conference Posters" :publications="posters" />
       <Publications class="avoid-break" sectionTitle="Patents" :publications="patents" />
-      <Talks :talks="talks" />
       <Projects :projects="projects" />
       <Discography :diskcography="discography" />
     </div>

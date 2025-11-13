@@ -1,27 +1,32 @@
 talks:
-  - date: Nov. '21
+  - date: "Oct. '25"
+    event: MCN 2025 (Museum Computer Network)
+    title: "From Exhibits to Platforms: Software Infrastructure at the Exploratorium"
+    role: Speaker
+  - date: "Nov. '21"
     event: Museum Studies International Symposium
-    title: "Lessons Learned from the Pandemic: How COVID-19 and the Racial-Justice
+    title: |
+      "Lessons Learned from the Pandemic: How COVID-19 and the Racial-Justice
       Crisis Impacted University of San Francisco’s Social-Justice Focused
       Museum Studies Curricula"
     role: Discussant
-  - date: May '18
+  - date: "May '18"
     title: Web Dashboards for Single-Board Computers
     event: Maker Faire Bay Area, San Mateo, CA, USA
     role: Presenter
-  - date: Oct. '17
-    title: '"Smart Exhibits" - Using Technology to Create Dynamic Content and
+  - date: "Oct. '17"
+    title: |
+      '"Smart Exhibits" - Using Technology to Create Dynamic Content and
       Enhance Visitor Engagement'
-    event: Association of Science - Technology Centers Annual Conference, San Jose,
-      CA, USA
+    event: ASTC 2017 (Association of Science - Technology Centers), San Jose, CA, USA
     role: Moderator and presenter
-  - date: Apr. '14
+  - date: "Apr. '14"
     event: "Microsoft Israel: Think Next, Tel Aviv, Israel"
     role: Presenter
-  - date: May '13
+  - date: "May '13"
     event: Pecha Kucha, Tel Aviv, Israel
     role: Presenter
-  - date: Jul. '12
+  - date: "Jul. '12"
     title: Music, Technology, and Ghostbusting
     event: The Interaction Lab, Holon Institute of Technology, Holon, Israel
     role: Speaker

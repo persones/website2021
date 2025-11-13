@@ -12,8 +12,8 @@ skillCatagories:
     skills:
       - Node
       - Vue
+      - d3
       - Django
-      - JQuery
       - Express
       - Easel
   - skillCatagory: Electronics
@@ -23,12 +23,12 @@ skillCatagories:
       - Eagle
   - skillCatagory: Fabrication
     skills:
+      - Fusion
       - SolidWorks
       - machining
       - CNC
       - laser cutting
       - 3D printing
-      - vacuum forming
   - skillCatagory: Music Software
     skills:
       - Ableton Live
@@ -39,6 +39,8 @@ skillCatagories:
   - skillCatagory: Creative Coding
     skills:
       - Arduino
+      - TouchDesigner
+      - Adobe CC
       - Processing
       - OpenFrameworks
       - Max/MSP

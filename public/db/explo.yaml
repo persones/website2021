@@ -13,8 +13,10 @@ projects:
     description: A video art piece, where stomata - small opening on plants' leaves which are used for 
       gas exchange - are animated to look as if they're singing.
     images:
-      - file: images/plantdice.jpg
-        caption: Stomata
+      - file: images/stomata.jpg
+        caption: The fablulous Singing Stomata
+    links:
+      - https://www.exploratorium.edu/exhibits/fabulous-singing-stomata
   - title: Meet Amalia
     end_date: 03/2023
     affiliation: Exploratorium
@@ -23,8 +25,13 @@ projects:
     collaborators: 
     - Kevin Boyd
     - Ray Larson
-    description: An exhibit featuring plant fitted with sensors and a camera. The visitors can explore the data
-      to learn about how water travels from the roots, up the stem, and to the leaves.
+    description: |
+      An exhibit featuring plant fitted with sensors and a camera. 
+      The visitors can explore the data to learn about how water 
+      travels from the roots, up the stem, and to the leaves.
+    images: 
+    - file: images/amalia.jpg
+      caption: Meet Amalia
   - title: LIDAR
     end_date: 12/2021
     affiliation: Exploratorium
