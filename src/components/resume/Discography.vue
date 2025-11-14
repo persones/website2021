@@ -2,20 +2,24 @@
   <div class="discography">
     <div class="section-title">Discography (keyboards/programming)</div>
     <table>
-      <tr>
-        <th>year</th>
-        <th>artist</th>
-        <th>album</th>
-        <th>label</th>
-        <th>status</th>
-      </tr>
-      <tr v-for="(album, index) in diskcography" :key="index">
-        <td class="date">{{ album.year }}</td>
-        <td>{{ album.artist }}</td>
-        <td class="academic-title">{{ album.title }}</td>
-        <td>{{ album.label }}</td>
-        <td>{{ album.status }}</td>
-      </tr>
+      <thead>
+        <tr>
+          <th>year</th>
+          <th>artist</th>
+          <th>album</th>
+          <th>label</th>
+          <th>status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr v-for="(album, index) in diskcography" :key="index">
+          <td class="date">{{ album.year }}</td>
+          <td>{{ album.artist }}</td>
+          <td class="academic-title">{{ album.title }}</td>
+          <td>{{ album.label }}</td>
+          <td>{{ album.status }}</td>
+        </tr>
+      </tbody>
     </table>
   </div>
 </template>

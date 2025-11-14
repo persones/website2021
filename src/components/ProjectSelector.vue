@@ -85,6 +85,7 @@
 <script>                                                                                                           
 export default {
   name: 'Project',
+  emits: ['selectProject'],
   props: {
     projects: Array,
     selectedProject: Object
