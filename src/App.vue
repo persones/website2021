@@ -1,5 +1,5 @@
 <template>
-  <div id="app" :class="{ noscroll: showing!='resume'}">
+  <div id="vueapp" :class="{ noscroll: showing!='resume'}">
     <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Fira+Code:wght@300&display=swap" rel="stylesheet">
     <div id="header" class="border-box">
@@ -47,6 +47,10 @@ export default {
     
   },
   created: async function() {
+    if (window.location.hash === '#resume') {
+      this.showing = 'resume';
+    }
+
     let files = [ 'explo', 'mit']; 
     for (let f of files) {
       let t = await fetch(`./db/${f}.yaml`);
@@ -74,7 +78,7 @@ export default {
 <style>
   @import './assets/styles/clean.css';
 
-  #app {
+  #vueapp {
     box-sizing: border-box;
     padding: 2em 2em 0 2em;
     height: 100%;
@@ -117,11 +121,24 @@ a, .link {
 }
 
 @media print
-{    
-    .no-print, .no-print *
-    {
-        display: none !important;
-    }
+{  
+  * {
+     -webkit-print-color-adjust: exact; /* For Chrome, Safari, Edge (WebKit/Blink) */
+    print-color-adjust: exact;
+  }
+  
+  #vueapp  {
+    margin-top: 0;
+    padding-top: 0;
+  }
+  #header {
+    margin-top: 0;
+    padding-top: 0;
+  } 
+  .no-print, .no-print *
+  {
+      display: none !important;
+  }
 }
 
   

@@ -3,7 +3,7 @@
     <div class="section-title">Technical skills</div>
     <ul>
       <li v-for="skillCatagory in skillCatagories" :key="skillCatagory.skillCatagory">
-        <span class="skillCatagotyName" v-html="skillCatagory.skillCatagory" />: <br />
+        <span class="skillCatagotyName" v-html="skillCatagory.skillCatagory" />: 
         <span v-html="skillList(skillCatagory.skills)" />
       </li>  
     </ul>

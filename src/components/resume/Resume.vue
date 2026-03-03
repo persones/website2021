@@ -1,8 +1,14 @@
 <template>
   <div class="resume">
     <div class="page">
-      <div class="button-container">
-        <button @click="print" class="no-print">PRINT</button>
+      <div class="button-container no-print">
+        <button @click="print">PRINT</button>
+        <div>
+          <div v-for="s in ['projects', 'discography']" :key="s">
+            <input type="checkbox" :id="s" v-model="showing[s]" :value="s" />
+            <label :for="s">{{ s }}</label>
+          </div>
+        </div>
       </div>
       <div class="contact">
         <div class="my-name">Eyal Shahar</div>
@@ -10,7 +16,7 @@
         <div id="email">{{ email }}</div>  
         <div>(617) 386-3368</div>
       </div>   
-      <Education :educations="educations"  />
+      <Education class="section" :educations="educations"  />
       <div class="columns-container">
         <div class="column">
           <WorkCatagory :catagory="workCatagories[0]" />
@@ -29,8 +35,8 @@
       <Talks :talks="talks" />
       <Publications class="avoid-break" sectionTitle="Conference Posters" :publications="posters" />
       <Publications class="avoid-break" sectionTitle="Patents" :publications="patents" />
-      <Projects :projects="projects" />
-      <Discography :diskcography="discography" />
+      <Projects v-if="showing.projects" :projects="projects" />
+      <Discography v-if="showing.discography" :diskcography="discography" />
     </div>
     
   </div>
@@ -74,7 +80,10 @@ export default {
       talks: [],
       educations: [],
       misc: [],
-      discography: []
+      discography: [],
+      showing: {
+        projects: true,
+        discography: true}
     }
   },
   created: async function() {

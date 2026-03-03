@@ -41,7 +41,7 @@ export default {
     padding: 3px;
     border-radius: 7px;
     font-style: italic;
-    background: #e6edf6;
+    background: #d2dbe5;
     display: inline-block
   }
 

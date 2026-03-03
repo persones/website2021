@@ -16,7 +16,8 @@ projects:
       - file: images/stomata.jpg
         caption: The fablulous Singing Stomata
     links:
-      - https://www.exploratorium.edu/exhibits/fabulous-singing-stomata
+      - text: The Fabulous Singing Stomata on the Exploratorium's website
+        link: https://www.exploratorium.edu/exhibits/fabulous-singing-stomata
   - title: Meet Amalia
     end_date: 03/2023
     affiliation: Exploratorium
