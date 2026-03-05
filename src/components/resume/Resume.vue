@@ -12,7 +12,7 @@
       </div>
       <div class="contact">
         <div class="my-name">Eyal Shahar</div>
-        <div>http://eyalshahar.com</div>
+        <div>https://persones.github.io/eyalshahar</div>
         <div id="email">{{ email }}</div>  
         <div>(617) 386-3368</div>
       </div>   
