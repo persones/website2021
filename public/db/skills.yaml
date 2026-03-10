@@ -1,11 +1,11 @@
 skillCatagories:
   - skillCatagory: Software
     skills:
+      - JavaScript
+      - Python
+      - HTML/CSS
       - C/C++
       - Java
-      - Python
-      - JavaScript
-      - HTML/CSS
       - Assembly
       - Matlab
   - skillCatagory: Frameworks
@@ -13,9 +13,17 @@ skillCatagories:
       - Node
       - Vue
       - d3
-      - Django
       - Express
+      - Django
       - Easel
+  - skillCatagory: Creative Coding
+    skills:
+      - Arduino
+      - TouchDesigner
+      - Adobe CC
+      - Processing
+      - OpenFrameworks
+      - Max/MSP
   - skillCatagory: Electronics
     skills:
       - circuit design
@@ -36,11 +44,4 @@ skillCatagories:
       - Logic
       - Protools
       - Reaktor
-  - skillCatagory: Creative Coding
-    skills:
-      - Arduino
-      - TouchDesigner
-      - Adobe CC
-      - Processing
-      - OpenFrameworks
-      - Max/MSP
+  

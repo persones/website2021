@@ -1,10 +1,10 @@
 workCatagories:
-  - work_catagory: technical
+  - work_catagory: technology
     workplaces:
-      - workplace: The Exploratorium
+      - workplace: Exploratorium
         location: San Francisco, CA, USA
         responsibilities:
-              - Setting software engineering standards and policies for exhibit development and production
+              - Setting strategies, standards, and policies for digitally-driven exhibit development and production
               - Designing and developing digitally-driven exhibits and
                 experiences
         positions:
@@ -76,7 +76,8 @@ workCatagories:
             from: Jan. '20
             to: Present
             responsibilities:
-              - "Teaching MUSE 608-1: Museums & Technology Practicum"
+              - |
+                Teaching MUSE 608-1: Museums & Technology Practicum, a graduate-level course covering digital strategy, ethical frameworks, and cross-departmental technological integration.
       - workplace: Aviv High School robotics class
         location: Ra'anana, Israel
         positions:
